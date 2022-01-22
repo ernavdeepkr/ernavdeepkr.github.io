@@ -1,0 +1,77 @@
+baseurl = "https://localhost:1313"
+metaDataFormat = "yaml"
+title = "Automation Crunch 😎"
+theme = "blis_custom"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hey! 👋 I'm Navdeep Kaur"
+      introSubtitle = "An Avid Learner 📖, Doing everything possible around Automation 🤖 Software Development."
+      introPhoto = "/profile_pic.jpeg"
+      #logo = "/blist-logo1.png"
+    
+    [[languages.en.menu.main]]
+        name = "Home"
+        url = ""
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 4
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2022 - Navdeep Kaur · All rights reserved"
+  favicon = "/favicon.png"
+  
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+[params.homepage.social]
+  # Global params xommon for both languages
+  title = "Follow me"
+  description = "You can find me on"
+  twitter = "https://twitter.com/ernavdeepkr"
+  linkedin = "https://linkedin.com/in/ernavdeepkr"
+  github = "https://github.com/ernavdeepkr"
+  gitlab = "https://gitlab.com/ernavdeepkr"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

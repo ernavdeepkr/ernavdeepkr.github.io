@@ -1,0 +1,83 @@
+---
+author: "Navdeep Kaur"
+title: "Python Keywords"
+description: "Article related to python keywords and python data types"
+tags: ["python keywords", "python data types"]
+date: 2022-01-18
+thumbnail: https://st.depositphotos.com/2065405/4524/i/600/depositphotos_45241489-stock-photo-word-cloud-keywords.jpg
+---
+
+> This article offers the python reseved keywords and some common python data type and how to find data type with example.
+
+<!--more-->
+
+*Python has a set of keywords that are reserved words that cannot be used as variable names, function names, or any other identifiers.*
+
+## **Keyword Description**
+
+> - **and :** A logical operator
+> - **as :** To create an alias
+> - **assert :** For debugging
+> - **break :** To break out of a loop
+> - **class :** To define a class
+> - **continue :** To continue to the next iteration of a loop
+> - **def :** To define a function
+> - **del :** To delete an object
+> - **elif :** Used in conditional statements, same as else if
+> - **else :** Used in conditional statements
+> - **except :** Used with exceptions, what to do when an exception occurs
+> - **False :** Boolean value, result of comparison operations
+> - **finally :** Used with exceptions, a block of code that will be executed no matter if there is an exception or not
+> - **for :** To create a for loop
+> - **from :** To import specific parts of a module
+> - **global :** To declare a global variable
+> - **if :** To make a conditional statement
+> - **import :** To import a module
+> - **in :** To check if a value is present in a list, tuple, etc.
+> - **is :** To test if two variables are equal
+> - **lambda :** To create an anonymous function
+> - **None :** Represents a null value
+> - **nonlocal :** To declare a non-local variable
+> - **not :** A logical operator
+> - **or :** A logical operator
+> - **pass :** A null statement, a statement that will do nothing
+> - **raise :** To raise an exception
+> - **return :** To exit a function and return a value
+> - **True :** Boolean value, result of comparison operations
+> - **try :** To make a try...except statement
+> - **while :** To create a while loop
+> - **with :** Used to simplify exception handling
+> - **yield :** To end a function, returns a generator
+
+## **Python Data Types**
+
+*A data type is a category for values, and every value belongs to exactly one data type.*
+
+**Common Data Types:**
+
+| Data type | Examples |
+|-----------|----------|
+| Integers  | -1, 0, 1 |
+| Floating-point numbers | -1.0, 0.0, 1.0 |
+| Strings  | 'a', 'Hello!', '11 candies'|
+
+*Python has the following **built-in data types** by default, in these categories :*
+
+- *Text Type :* str
+- *Numeric Types :* int, float, complex
+- *Sequence Types :* list, tuple, range
+- *Set Types :* set, frozenset
+- *Mapping Type :* dict
+- *Boolean Type :* bool
+- *Binary Types :* bytes, bytearray, memoryview
+
+## **Getting the Datatype**
+
+*Datatype of any object can be printed by using the type() function.*
+
+**Example :** Print the datatype of the variable 'x'.
+
+```python
+x = 5
+print(type(x))
+```
