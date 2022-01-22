@@ -1,4 +1,4 @@
-baseurl = "https://localhost:1313"
+baseurl = "https://ernavdeepkr.gitlab.io"
 metaDataFormat = "yaml"
 title = "Automation Crunch 😎"
 theme = "blis_custom"

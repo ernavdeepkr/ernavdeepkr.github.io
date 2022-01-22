@@ -4,10 +4,12 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
+  before_script:
+  - apk update && apk add nodejs npm
   script:
-  - hugo
+  - npm i && hugo -D --gc
   artifacts:
     paths:
     - public
   only:
-  - master
+  - main
