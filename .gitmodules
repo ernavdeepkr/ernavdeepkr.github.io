@@ -1,0 +1,3 @@
+[submodule "themes/blis_custom"]
+	path = themes/blis_custom
+	url = https://gitlab.com/ernavdeepkr/blis_custom.git
