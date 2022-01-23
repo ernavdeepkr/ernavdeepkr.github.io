@@ -15,7 +15,7 @@ tasks:
 ports:
   - port: 1313
     onOpen: open-browser
-    visibility: private
+    visibility: public
 
 vscode:
   extensions:
