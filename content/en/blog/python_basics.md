@@ -1,7 +1,7 @@
 ---
 author: "Navdeep Kaur"
 title: "Python Expressions & assignment statements"
-description: "Article related to basics of Python and it covers Python expressions, operators and assignment statements."
+description: "The basics of Python are covered in this article, which includes Python expressions, operators, and assignment statements."
 tags: ["python expressions", "assignment statements", "string operations"]
 date: 2022-01-16
 thumbnail: https://miro.medium.com/max/2000/1*Zipt5ex6sSVSkciwlJoG4Q.png

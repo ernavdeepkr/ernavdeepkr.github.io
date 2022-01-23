@@ -1,10 +1,10 @@
 ---
 author: "Navdeep Kaur"
 title: "Python Keywords"
-description: "Article related to python keywords and python data types"
+description: "The python reseved keywords, as well as several popular python data types and how to locate data type with examples, are covered in this article."
 tags: ["python keywords", "python data types"]
 date: 2022-01-18
-thumbnail: https://st.depositphotos.com/2065405/4524/i/600/depositphotos_45241489-stock-photo-word-cloud-keywords.jpg
+thumbnail: https://core-electronics.com.au/media/wysiwyg/tutorials/Tim/Speed2/cropped-phillipino-phipped-image-2.jpg
 ---
 
 > This article offers the python reseved keywords and some common python data type and how to find data type with example.

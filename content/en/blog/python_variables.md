@@ -1,7 +1,7 @@
 ---
 author: "Navdeep Kaur"
 title: "Python Variables"
-description: "Article related to valid variables names used in Python and different python scopes."
+description: "The rules for Python variables, proper variable names, and python scope are all covered in this article."
 tags: ["python variables", "python scopes", "Local scope", "Global scope"]
 date: 2022-01-20
 thumbnail: https://deiniresendiz.com/wp-content/uploads/2020/06/Python.jpg

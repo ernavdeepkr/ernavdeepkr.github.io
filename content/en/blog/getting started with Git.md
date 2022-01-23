@@ -1,14 +1,14 @@
 ---
 author: "Navdeep Kaur"
 title: "Getting started with Git"
-description: "Article related to the basics of Git , this article covers some basic Git commands."
+description: "This post contains my own notes about Git, including Git introduction, Git commands, Git basic internals, and Git FAQs, all of which can be quite valuable in your daily work."
 tags: ["git", "vcs", "git commands", "git installation", "github vs git", "git states", "git questions"]
 
 date: 2022-01-14
 thumbnail: https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/03/git-1.png
 ---
 
-> This article related to the basics of Git , this article covers some basic Git commands.
+> This article contains my own notes about Git, including Git introduction, Git commands, Git basic internals, and Git FAQs, all of which can be quite valuable in your daily work.
 
 <!--more-->
 
