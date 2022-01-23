@@ -5,6 +5,7 @@ description: "Article related to basics of Python and it covers Python expressio
 tags: ["python expressions", "assignment statements", "string operations"]
 date: 2022-01-16
 thumbnail: https://miro.medium.com/max/2000/1*Zipt5ex6sSVSkciwlJoG4Q.png
+image: https://miro.medium.com/max/2000/1*Zipt5ex6sSVSkciwlJoG4Q.png
 ---
 
 > This article offers the basics of Python, python expressions, operators, operations and assignment statements in python. It also covers basic python variables and data types.
