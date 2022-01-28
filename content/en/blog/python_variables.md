@@ -1,21 +1,21 @@
 ---
 author: "Navdeep Kaur"
-title: "Python Variables"
-description: "The rules for Python variables, proper variable names, and python scope are all covered in this article."
+title: "Variables in Python"
+description: "This article covers the rules for Python variables and valid variable names. It explains how to use local variables and global variables in Python."
 tags: ["python variables", "python scopes", "Local scope", "Global scope"]
 date: 2022-01-20
 thumbnail: https://deiniresendiz.com/wp-content/uploads/2020/06/Python.jpg
 ---
 
-> This article offers the rules for Python variables, valid variable names and python scope.
+> This article offers the easy understanding of Python variables, valid variable names and difference between local variables & global variables.
 
 <!--more-->
 
-## Variable Names
+## Python Variables
 
-*A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).*
+A variable in Python is a memory place where a value can be stored. According to the requirements, the value you've saved may change in the future.
 
-## Rules for Python variables
+## Rules for assinging names to Python variables
 
 - A variable name must start with a letter or the underscore character
 - A variable name cannot start with a number
@@ -37,35 +37,56 @@ thumbnail: https://deiniresendiz.com/wp-content/uploads/2020/06/Python.jpg
 - my-var = "David"
 - my var = "David"
 
-## Python Scope
+## Local Variables vs Global variables
 
-*A variable is only available from inside the region it is created. This is called scope*.
+- **Local Variable :** 
 
-**Local Scope :** A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+Local variables are those which are defined inside a function and its scope is limited to that function only. In other words, we can say that local variables are accessible only inside the function in which it was initialized.
 
-- **Local Variable :** The local variable can be accessed from a function within the function :
+***Local Scope :** A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.*
 
-**Example :**
-
-```python
-def my_func():
-    x = 50
-    def my_innerfunc():
-    print(x)
-    my_innerfunc()
-my_func()
-```
-
-**Global Scope :** A variable created in the main body of the Python code is a global variable and belongs to the global scope.
-
-- **Global Variable :** Global variables are available from within any scope, global and local.
-
-**Example :**
+**For example :**
 
 ```python
-x = 50
-def my_func():
-    print(x)
-my_func()
-print(x)
+# Creating local variables
+# Example  (1)
+>>> def fun():
+...     st = "I Love Python"  # local variable
+...     print("Inside function",st)
+...
+>>> fun() # calling function
+Inside function I Love Python  # output
+
+# Example  (2) 
+# If we will try to use this local variable outside the function then let’s see what will happen.
+
+>>> def fun():
+...     st = "I Love Python"  # local variable
+...     print("Inside function",st)
+...
+>>> fun() # calling function
+Inside function I Love Python  # output
+
+>>> print("Outside function:",st) # try to print outside function
+NameError: name 'st' is not defined
 ```
+
+- **Global Variable :** Global variables are those which are not defined inside any function and have a global scope. In other words, global variables are accessible throughout the program and inside every function. 
+
+***Global Scope :** A variable created in the main body of the Python code is a global variable and belongs to the global scope.*
+
+**For example :**
+
+```python
+>>> def fun():    
+...     print("Inside function",st)
+>>> st = "I Love Python"  # local variable
+
+>>> fun() # calling function
+Inside function I Love Python  # output
+
+>>> print("Outside function:",st) # try to print variable outside function
+Outside Function I Love Python
+```
+
+> **Note :** The variable 'st' is defined as the global variable and is used both inside the function as well as outside the function. As there are no locals, the value from the globals will be used.
