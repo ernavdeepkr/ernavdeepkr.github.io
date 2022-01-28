@@ -15,7 +15,7 @@ thumbnail: https://deiniresendiz.com/wp-content/uploads/2020/06/Python.jpg
 
 A variable in Python is a memory place where a value can be stored. According to the requirements, the value you've saved may change in the future.
 
-## Rules for assinging names to Python variables
+## Rules for assigning names to Python variables
 
 - A variable name must start with a letter or the underscore character
 - A variable name cannot start with a number
@@ -86,7 +86,7 @@ NameError: name 'st' is not defined
 Inside function I Love Python  # output
 
 >>> print("Outside function:",st) # try to print variable outside function
-Outside Function I Love Python
+Outside function I Love Python
 ```
 
 > **Note :** The variable 'st' is defined as the global variable and is used both inside the function as well as outside the function. As there are no locals, the value from the globals will be used.
