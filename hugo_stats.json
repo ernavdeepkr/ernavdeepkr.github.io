@@ -250,7 +250,6 @@
       "awards",
       "data-types",
       "getting-the-datatype",
-      "introduction",
       "keyword-description",
       "local-variables-vs-global-variables",
       "markdown-**Frequently%20Asked%20Questions**",
@@ -307,12 +306,10 @@
       "publications",
       "python-data-types",
       "python-expression",
-      "python-memory-management",
       "python-variables",
       "rules-for-assigning-names-to-python-variables",
       "skills",
       "types-of-vcs",
-      "what-is-memory",
       "what-is-memory-management",
       "white_background"
     ]

@@ -1,6 +1,6 @@
 ---
 author: "Navdeep Kaur"
-title: "Memory management"
+title: "Python Memory management"
 description: "With some examples, this article explains the memory management, garbage collection, id() function and memory allocation in Python."
 tags: ["Memory management","Garbage collection"]
 date: 2022-01-24
@@ -31,7 +31,7 @@ The number of times an object is referred by other objects in the system is coun
 
 **For example:**
 
-*Let's consider the situation where two or more variables have the same value. The Python virtual machine makes the second variable point to the already existing value in the private heap, rather than creating another object with the same value in the private heap. As a result, having a large number of references in a class can consume a lot of memory; in this scenario, referencing counting is useful.*
+*Let's consider the situation where two or more variables have the same value. The Python virtual machine makes the second variable point to the already existing value in the private heap, rather than creating another object with the same value in the private heap.*
 
 ```python
 >>> x = 10
@@ -53,8 +53,7 @@ x and y refer to the same object
 
 - **id() function** 
 
-As can be seen, the function only takes one parameter and returns the object's identity. This identification must be unique and constant throughout the object's existence. The id() value of two objects with non-overlapping lives may be the same. If we compare this to C, they are the memory address; in Python, they are the unique id. In Python, this function is commonly used internally.
-Because Python optimizes memory usage by allocating the same object reference to a new variable if the object already exists with the same value, y = x will construct another reference variable y that will refer to the same object.
+As in the above example, the function only takes one parameter and returns the object's identity. This identification must be unique and constant throughout the object's existence. The id() value of two objects with non-overlapping lives may be the same. If the object already exists with the same value, then it will construct another reference variable that will refer to the same object.
 
 - Now, let’s change the value of x and see what happens.
 
