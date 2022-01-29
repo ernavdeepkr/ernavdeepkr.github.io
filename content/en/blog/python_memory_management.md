@@ -19,15 +19,15 @@ thumbnail: https://www.askpython.com/wp-content/uploads/2020/11/Memory-managemen
 
 ## **What is memory management?**
 
-Any software developer should be aware of memory allocation since designing efficient code also implies producing memory-efficient code. Allocating a block of memory in a computer to a program is known as memory allocation and freeing up memory is called memory deallocation. The memory allocation and deallocation methods in Python are automatic since the Python developers designed a garbage collector so that the user does not have to manually collect rubbish.
+A memory manager decides where an application's data should be stored. Memory allocation is the process of allocating a block of memory in a computer to a program, whereas memory deallocation is the process of freeing up memory. Python's memory allocation and deallocation procedures are fully automated, as the Python developers created a garbage collector to eliminate the need for the user to manually collect garbage.
 
 - **Garbage Collection**
 
-Garbage collection is the method by which the interpreter frees up memory when it isn't in use so that it can be used by other objects.Assume there is no reference to an item in memory that is not in use. In this scenario, the virtual machine has a garbage collector.
+Garbage collection is the process by which the interpreter frees up memory when it isn't in use, allowing other things to use it. Assume there is no memory reference to an object that is no longer in use. The virtual computer in this case has a garbage collector.
 
 - **Reference Counting**
 
-The number of times an object is referred by other objects in the system is counted by reference counting. The reference count for an object is decremented when references to it are removed. The object is deallocated when the reference count reaches zero.
+Reference counting counts the number of times an object is referenced to by other objects in the system. When references to an object are deleted, the reference count for that object is reduced. When the reference count approaches zero, the object is deallocated.
 
 **For example:**
 
@@ -40,12 +40,13 @@ The number of times an object is referred by other objects in the system is coun
 >>> # Because everything in Python is an object, when x = 10 is executed, 
 >>> # an integer object 10 is generated in memory and 
 >>> # its reference is set to variable x.
->>> y = x
+
+>>> y = x # second variable pointing to existing value
 >>>
 >>> id(y)
 2033856768592
 >>>
->>> if id(x) == id(y):
+>>> if id(x) == id(y): # to check if x and y have same id's.
 ...     print("x and y refer to the same object")
 ...
 x and y refer to the same object
@@ -53,24 +54,26 @@ x and y refer to the same object
 
 - **id() function** 
 
-As in the above example, the function only takes one parameter and returns the object's identity. This identification must be unique and constant throughout the object's existence. The id() value of two objects with non-overlapping lives may be the same. If the object already exists with the same value, then it will construct another reference variable that will refer to the same object.
+As in the above example, the function only takes one parameter and returns the object's identity. This identification must be unique and constant throughout the object's existence. The id() value of two objects with non-overlapping values may be the same. If the object already exists with the same value, then it will construct another reference variable that will refer to the same object.
 
 - Now, let’s change the value of x and see what happens.
 
 ```python
 
->>> x = 10
->>> y = x
+>>> x = 10 # variable with value 10
+>>> y = x #varible with same existing value
 >>>
 >>> id(x)
 2033856768592
 >>>
 >>> id(y)
 2033856768592
->>> x = 11
+>>> # Both x and y have same values upto now
+>>>
+>>> x = 11 # Now value of x is 11
 >>>
 >>> id(x)
-2033856768624
+2033856768624 # id of x has been changed here because now x has value 11.
 >>>
 >>> if id(x) != id(y):
 ...     print("x and y do not refer to the same object")
