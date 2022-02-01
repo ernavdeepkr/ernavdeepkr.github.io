@@ -1,13 +1,13 @@
 ---
 author: "Navdeep Kaur"
 title: "Python Keywords"
-description: "The python reseved keywords, as well as several popular python data types and how to locate data type with examples, are covered in this article."
+description: "This article refers to python reseved keywords, as well as several popular python data types and how to locate data type."
 tags: ["python keywords", "python data types"]
 date: 2022-01-18
 thumbnail: https://core-electronics.com.au/media/wysiwyg/tutorials/Tim/Speed2/cropped-phillipino-phipped-image-2.jpg
 ---
 
-> This article offers the python reseved keywords and some common python data type and how to find data type with example.
+> Hello everyone, here is the article offering the python reserved keywords and some common python data types and how to find data type.
 
 <!--more-->
 
@@ -75,9 +75,21 @@ thumbnail: https://core-electronics.com.au/media/wysiwyg/tutorials/Tim/Speed2/cr
 
 *Datatype of any object can be printed by using the type() function.*
 
-**Example :** Print the datatype of the variable 'x'.
+**For Example :** Find the datatype using 'type()'
 
 ```python
-x = 5
-print(type(x))
+>>> x = 5
+>>> type(x)  # to check the data type of x.
+<class 'int'> # Output
+>>>
+>>> st = "Hello"
+>>> type(st)  # to check the data type of st.
+<class 'str'>   # Output
+>>>
+>>> y = 5.5
+>>> type(y)  # to check the data type of y.
+<class 'float'>  # Output 
+>>>
+
+
 ```
