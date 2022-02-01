@@ -1,7 +1,7 @@
 ---
 author: "Navdeep Kaur"
 title: "Python Keywords"
-description: "This article refers to python reseved keywords, as well as several popular python data types and how to locate data type."
+description: "This article refers to python reserved keywords, as well as several popular python data types and how to locate data type."
 tags: ["python keywords", "python data types"]
 date: 2022-01-18
 thumbnail: https://core-electronics.com.au/media/wysiwyg/tutorials/Tim/Speed2/cropped-phillipino-phipped-image-2.jpg
