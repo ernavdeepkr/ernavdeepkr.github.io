@@ -1,6 +1,6 @@
 ---
 author: "Navdeep Kaur"
-title: "Python Keywords"
+title: "What are keywords in Python?"
 description: "This article refers to python reserved keywords, as well as several popular python data types and how to locate data type."
 tags: ["python keywords", "python data types"]
 date: 2022-01-18

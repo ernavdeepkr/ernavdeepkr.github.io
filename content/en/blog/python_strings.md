@@ -1,6 +1,6 @@
 ---
 author: "Navdeep Kaur"
-title: "Python Strings"
+title: "Python Strings and some common string operations"
 description: "The python strings are discussed in this article. A string is a collection of characters in Python. Many Python methods are also included here in this post"
 tags: ["python string"]
 date: 2022-02-16

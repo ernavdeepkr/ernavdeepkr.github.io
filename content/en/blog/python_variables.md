@@ -4,7 +4,7 @@ title: "Variables in Python"
 description: "This article covers the rules for Python variables and valid variable names. It explains how to use local variables and global variables in Python."
 tags: ["python variables", "python scopes", "Local scope", "Global scope"]
 date: 2022-01-20
-thumbnail: https://deiniresendiz.com/wp-content/uploads/2020/06/Python.jpg
+thumbnail: https://codingstreets.com/wp-content/uploads/2021/05/PYTHON-VARIABLES.jpg
 ---
 
 > This article offers the easy understanding of Python variables, valid variable names and difference between local variables & global variables.

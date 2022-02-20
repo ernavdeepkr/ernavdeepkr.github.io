@@ -1,6 +1,6 @@
 ---
 author: "Navdeep Kaur"
-title: "Python Memory management"
+title: "How Memory is managed in Python?"
 description: "With some examples, this article explains the memory management, garbage collection, id() function and memory allocation in Python."
 tags: ["Memory management","Garbage collection"]
 date: 2022-01-24
