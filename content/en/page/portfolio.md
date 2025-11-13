@@ -11,7 +11,7 @@ type: portfolio
 
 <div class="intro-hero">
 <h1>Hi, I'm Navdeep Kaur</h1>
-<p class="intro-tagline">DevOps Engineer | Software Engineer | QA Automation Engineer</p>
+<p class="intro-tagline">Software Engineer | DevOps Engineer | QA Automation Engineer</p>
 <p class="intro-description">Results-driven professional with <strong>8+ years</strong> of experience in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies. Certified Scrum Master with strong leadership in cross-functional teams. Proficient in Python, Go, Bash scripting, and emerging AI technologies.</p>
 </div>
 
