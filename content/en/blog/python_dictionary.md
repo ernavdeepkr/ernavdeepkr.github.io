@@ -4,7 +4,7 @@ title: "Python Dictionary"
 description: "This article covers one of four built-in Python data structures for storing data collections through examples."
 tags: ["python keywords", "python data types", "python dictionary"]
 date: 2022-03-07
-thumbnail: https://www.zigya.com/blog/wp-content/uploads/2021/02/valks-2.jpg
+thumbnail: https://miro.medium.com/v2/resize:fit:720/format:webp/1*fazaCKZgbZUbjrCR6_WcaA.png
 ---
 
 > A dictionary is an unsorted, changeable, and indexed collection. Curly brackets are used to write dictionaries in Python, and they have keys and values.
