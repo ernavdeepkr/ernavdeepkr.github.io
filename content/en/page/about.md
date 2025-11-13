@@ -5,9 +5,13 @@ date: 2022-01-14
 description: "Redirecting to portfolio page"
 keywords: ["about-me", "contact", "redirect"]
 type: about
-aliases: ["/en/page/about/"]
+aliases:
+  - /en/page/about/
+  - /page/about/
+_build:
+  render: never
 ---
 
-Please visit my [Portfolio Page](/en/page/portfolio/) for complete information about my professional background, experience, and projects.
+Redirecting to Portfolio...
 
-This page will redirect you automatically in a few seconds...
+Please visit my [Portfolio Page](/en/page/portfolio/) for complete information about my professional background, experience, and projects.
