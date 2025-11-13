@@ -15,45 +15,41 @@ type: portfolio
 <p class="intro-description">Results-driven professional with <strong>8+ years</strong> of expertise in cloud infrastructure, CI/CD automation, and DevSecOps. I build scalable systems with a strong focus on code quality and operational excellence.</p>
 </div>
 
----
-
 ## Professional Summary
 
 <div class="summary-grid">
 
 <div class="summary-card">
-<div class="card-title">DevOps Expert</div>
+<div class="card-title">🚀 DevOps Expert</div>
 <p>Cloud infrastructure, CI/CD automation, and DevSecOps specialization</p>
 </div>
 
 <div class="summary-card">
-<div class="card-title">Cloud Architect</div>
+<div class="card-title">☁️ Cloud Architect</div>
 <p>8+ years with AWS, IBM Cloud, Kubernetes, and modern cloud platforms</p>
 </div>
 
 <div class="summary-card">
-<div class="card-title">CI/CD Specialist</div>
+<div class="card-title">⚙️ CI/CD Specialist</div>
 <p>Jenkins, Tekton, GitHub Actions, and Travis CI expertise</p>
 </div>
 
 <div class="summary-card">
-<div class="card-title">Infrastructure as Code</div>
+<div class="card-title">🔧 Infrastructure as Code</div>
 <p>Terraform, Ansible, Docker, Kubernetes, OpenShift orchestration</p>
 </div>
 
 <div class="summary-card">
-<div class="card-title">Compliance & Security</div>
+<div class="card-title">🔐 Compliance & Security</div>
 <p>FedRAMP automation, Auditree, and security best practices</p>
 </div>
 
 <div class="summary-card">
-<div class="card-title">Agile Leadership</div>
+<div class="card-title">👥 Agile Leadership</div>
 <p>Certified Scrum Master with cross-functional team mentoring</p>
 </div>
 
 </div>
-
----
 
 ## Core Competencies
 
@@ -101,12 +97,10 @@ type: portfolio
 - **Introduction To Python** - [Certificate](http://ude.my/UC-90GEYNOG)
 - **Introduction to Databases and SQL Querying** - [Certificate](http://ude.my/UC-25GAJL8I)
 
----
-
 ## Professional Experience
 
 ### IBM (USA) - Raleigh, NC | March 2022 - Present
-**DevOps Engineer (Cloud)**
+**DevOps Engineer (Cloud)** 💼
 
 **Key Achievements:**
 - Architected and maintained end-to-end CI/CD pipelines using Jenkins, Tekton, GitHub Actions, and OnePipeline, standardizing workflows across 54 repositories
@@ -124,7 +118,7 @@ type: portfolio
 - **Cloud Services Performance Testing**: Led performance and scalability testing for IBM Cloud network services (ALB, NLB, pDNS, Direct Link, Transit Gateway)
 
 ### Freestone Infotech - Pune, India | Sept 2020 - Nov 2021
-**Automation Engineer (Cloud)**
+**Automation Engineer (Cloud)** 🔨
 
 - Developed and maintained automated test suites using Pytest for API and backend validation
 - Managed and optimized AWS environments (EC2, S3, IAM) for CI/CD and testing
@@ -132,14 +126,14 @@ type: portfolio
 - Containerized and deployed applications using Docker for consistent environments
 
 ### Coding Nest - Pune, India | Mar 2020 - Aug 2020
-**Software Engineer**
+**Software Engineer** 💻
 
 - Developed automated web scraping tools using BeautifulSoup, Requests, and Selenium
 - Implemented multi-version Python testing environments with Tox
 - Maintained comprehensive unit and integration test coverage
 
 ### AJ Devtech Pvt. Ltd. - Mohali, India | Jan 2017 - Feb 2020
-**Software Engineer**
+**Software Engineer** 🛠️
 
 - Developed scalable Python applications integrated with cloud platforms
 - Implemented automated build and deployment pipelines using Jenkins
@@ -147,7 +141,7 @@ type: portfolio
 
 ---
 
-## Publications & Research
+## Publications & Research 📚
 
 I have contributed to several research papers in cloud computing and performance benchmarking:
 
@@ -166,7 +160,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## Areas of Expertise
+## Areas of Expertise 🎯
 
 - **DevOps & Cloud Engineering**: End-to-end CI/CD architecture, cloud infrastructure automation, and DevSecOps practices
 - **Container Orchestration**: Docker, Kubernetes, OpenShift deployment and management
@@ -181,7 +175,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## What I'm Passionate About
+## What I'm Passionate About ❤️
 
 - **DevOps & Automation** - Building robust CI/CD pipelines and automating infrastructure for efficiency and reliability
 - **Cloud Innovation** - Designing scalable cloud solutions and modern architecture patterns
@@ -193,7 +187,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## Let's Connect
+## Let's Connect 🤝
 
 I'm always interested in collaborating on exciting projects, discussing automation strategies, or sharing knowledge.
 
@@ -218,13 +212,14 @@ I'm always interested in collaborating on exciting projects, discussing automati
 
 /* Hero Section */
 .intro-hero {
-  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-  color: white;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  color: #111827;
   padding: 3rem 2rem;
   border-radius: 12px;
   margin-bottom: 3rem;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 2px solid #d1d5db;
 }
 
 .intro-hero h1 {
@@ -232,15 +227,15 @@ I'm always interested in collaborating on exciting projects, discussing automati
   margin-bottom: 0.5rem;
   font-weight: 700;
   letter-spacing: -1px;
-  color: #fff;
+  color: #111827;
 }
 
 .intro-tagline {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  opacity: 0.98;
-  color: #e0e7ff;
+  opacity: 0.9;
+  color: #374151;
 }
 
 .intro-description {
@@ -249,7 +244,7 @@ I'm always interested in collaborating on exciting projects, discussing automati
   opacity: 0.95;
   max-width: 600px;
   margin: 0 auto;
-  color: #f0f4ff;
+  color: #1f2937;
 }
 
 /* Summary Cards Grid */
@@ -261,31 +256,31 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .summary-card {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
   padding: 1.8rem;
   border-radius: 10px;
-  border-left: 5px solid #2563eb;
+  border-left: 5px solid #4b5563;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.1);
-  border: 1px solid #bfdbfe;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
 }
 
 .summary-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.2);
-  border-left-color: #1e40af;
-  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-left-color: #1f2937;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
 }
 
 .card-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #1e40af;
+  color: #1f2937;
   margin-bottom: 0.5rem;
 }
 
 .summary-card p {
-  color: #1e3a8a;
+  color: #374151;
   font-size: 0.95rem;
   line-height: 1.5;
   font-weight: 500;
@@ -295,15 +290,15 @@ I'm always interested in collaborating on exciting projects, discussing automati
 .portfolio-container h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #1e40af;
+  color: #111827;
 }
 
 .portfolio-container h2 {
   font-size: 1.8rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #1e40af;
-  border-bottom: 3px solid #2563eb;
+  color: #111827;
+  border-bottom: 3px solid #4b5563;
   padding-bottom: 0.8rem;
   font-weight: 700;
 }
@@ -312,7 +307,7 @@ I'm always interested in collaborating on exciting projects, discussing automati
   font-size: 1.3rem;
   margin-top: 1.8rem;
   margin-bottom: 1rem;
-  color: #1e40af;
+  color: #1f2937;
   font-weight: 600;
 }
 
@@ -321,10 +316,10 @@ I'm always interested in collaborating on exciting projects, discussing automati
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #bfdbfe;
+  border: 1px solid #e5e7eb;
 }
 
 .portfolio-container table th,
@@ -334,31 +329,31 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .portfolio-container table th {
-  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  background: linear-gradient(135deg, #4b5563 0%, #374151 100%);
   color: white;
   font-weight: 600;
 }
 
 .portfolio-container table td {
-  color: #1e3a8a;
+  color: #1f2937;
   font-weight: 500;
 }
 
 .portfolio-container table tr {
-  border-bottom: 1px solid #bfdbfe;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .portfolio-container table tr:nth-child(even) {
-  background-color: #f0f9ff;
+  background-color: #f9fafb;
 }
 
 .portfolio-container table tr:hover {
-  background-color: #dbeafe;
+  background-color: #f3f4f6;
 }
 
 /* Links */
 .portfolio-container a {
-  color: #2563eb;
+  color: #4b5563;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
@@ -366,15 +361,15 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .portfolio-container a:hover {
-  border-bottom-color: #2563eb;
-  color: #1e40af;
+  border-bottom-color: #4b5563;
+  color: #111827;
 }
 
 /* Horizontal Rules */
 .portfolio-container hr {
   margin: 2.5rem 0;
   border: none;
-  border-top: 2px solid #bfdbfe;
+  border-top: 2px solid #e5e7eb;
 }
 
 /* Lists */
@@ -386,20 +381,20 @@ I'm always interested in collaborating on exciting projects, discussing automati
 .portfolio-container li {
   margin-bottom: 0.8rem;
   line-height: 1.7;
-  color: #1e3a8a;
+  color: #1f2937;
 }
 
 /* Final section */
 .portfolio-container > div:last-child {
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
   padding: 2rem;
   border-radius: 10px;
   margin-top: 2rem;
   text-align: center;
-  border: 2px solid #bfdbfe;
+  border: 2px solid #e5e7eb;
 }
 
 .portfolio-container > div:last-child p {
-  color: #1e40af;
+  color: #374151;
 }
 </style>
