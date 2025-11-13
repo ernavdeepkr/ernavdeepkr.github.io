@@ -9,24 +9,53 @@ type: portfolio
 
 <div class="portfolio-container">
 
-Hi, I'm **Navdeep Kaur**, a results-driven **DevOps Engineer and Software Engineer** with **8+ years** of professional experience. I specialize in cloud infrastructure, CI/CD automation, and DevSecOps. I take great care in the experience, architecture, and code quality of the things I build.
-
-I have learned extensively from the open-source community and believe strongly in knowledge sharing and collaboration.
-
----
-
-## 🎯 Professional Summary
-
-- **DevOps Expert**: Results-driven engineer specializing in cloud infrastructure, CI/CD automation, and DevSecOps
-- **Cloud Architect**: 8+ years of hands-on experience with AWS, IBM Cloud, Kubernetes, and modern cloud platforms
-- **CI/CD Specialist**: Expertise in Jenkins, Tekton (IBM OnePipeline), GitHub Actions, and Travis CI pipeline design
-- **Infrastructure as Code**: Proficient with Terraform, Ansible, Docker, Kubernetes, and OpenShift orchestration
-- **Compliance & Security**: Skilled in FedRAMP compliance automation, Auditree, and automated security practices
-- **Certified Scrum Master**: Leadership in cross-functional Agile teams and high-velocity delivery
+<div class="intro-hero">
+<h1>Hi, I'm Navdeep Kaur</h1>
+<p class="intro-tagline">DevOps Engineer & Cloud Infrastructure Architect</p>
+<p class="intro-description">Results-driven professional with <strong>8+ years</strong> of expertise in cloud infrastructure, CI/CD automation, and DevSecOps. I build scalable systems with a strong focus on code quality and operational excellence.</p>
+</div>
 
 ---
 
-## 💼 Core Competencies
+## Professional Summary
+
+<div class="summary-grid">
+
+<div class="summary-card">
+<div class="card-title">DevOps Expert</div>
+<p>Cloud infrastructure, CI/CD automation, and DevSecOps specialization</p>
+</div>
+
+<div class="summary-card">
+<div class="card-title">Cloud Architect</div>
+<p>8+ years with AWS, IBM Cloud, Kubernetes, and modern cloud platforms</p>
+</div>
+
+<div class="summary-card">
+<div class="card-title">CI/CD Specialist</div>
+<p>Jenkins, Tekton, GitHub Actions, and Travis CI expertise</p>
+</div>
+
+<div class="summary-card">
+<div class="card-title">Infrastructure as Code</div>
+<p>Terraform, Ansible, Docker, Kubernetes, OpenShift orchestration</p>
+</div>
+
+<div class="summary-card">
+<div class="card-title">Compliance & Security</div>
+<p>FedRAMP automation, Auditree, and security best practices</p>
+</div>
+
+<div class="summary-card">
+<div class="card-title">Agile Leadership</div>
+<p>Certified Scrum Master with cross-functional team mentoring</p>
+</div>
+
+</div>
+
+---
+
+## Core Competencies
 
 ### Technical Skills
 
@@ -44,7 +73,7 @@ I have learned extensively from the open-source community and believe strongly i
 
 ---
 
-## 🏆 Achievements & Certifications
+## Achievements & Certifications
 
 ### Professional Accomplishments
 - **CI/CD Migration Leadership**: Optimized CI/CD processes by migrating 54 repositories to IBM OnePipeline in three months, enhancing compliance and automation, integrating Slack, and eliminating third-party tool costs
@@ -74,7 +103,7 @@ I have learned extensively from the open-source community and believe strongly i
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
 ### IBM (USA) - Raleigh, NC | March 2022 - Present
 **DevOps Engineer (Cloud)**
@@ -118,7 +147,7 @@ I have learned extensively from the open-source community and believe strongly i
 
 ---
 
-## 📚 Publications & Research
+## Publications & Research
 
 I have contributed to several research papers in cloud computing and performance benchmarking:
 
@@ -137,7 +166,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## 🚀 Areas of Expertise
+## Areas of Expertise
 
 - **DevOps & Cloud Engineering**: End-to-end CI/CD architecture, cloud infrastructure automation, and DevSecOps practices
 - **Container Orchestration**: Docker, Kubernetes, OpenShift deployment and management
@@ -152,7 +181,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## 📖 What I'm Passionate About
+## What I'm Passionate About
 
 - **DevOps & Automation** - Building robust CI/CD pipelines and automating infrastructure for efficiency and reliability
 - **Cloud Innovation** - Designing scalable cloud solutions and modern architecture patterns
@@ -164,7 +193,7 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
 I'm always interested in collaborating on exciting projects, discussing automation strategies, or sharing knowledge.
 
@@ -187,64 +216,172 @@ I'm always interested in collaborating on exciting projects, discussing automati
   line-height: 1.8;
 }
 
+/* Hero Section */
+.intro-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.intro-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.intro-tagline {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.intro-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Summary Cards Grid */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.summary-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 1.8rem;
+  border-radius: 10px;
+  border-left: 5px solid #667eea;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+  border-left-color: #764ba2;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.summary-card p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Headings */
 .portfolio-container h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: var(--color-primary, #3b82f6);
+  color: #667eea;
 }
 
 .portfolio-container h2 {
   font-size: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color-primary, #3b82f6);
-  border-bottom: 2px solid var(--color-primary, #3b82f6);
-  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #667eea;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 0.8rem;
+  font-weight: 700;
 }
 
 .portfolio-container h3 {
   font-size: 1.3rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-  color: var(--color-secondary, #10b981);
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  color: #764ba2;
+  font-weight: 600;
 }
 
+/* Tables */
 .portfolio-container table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .portfolio-container table th,
 .portfolio-container table td {
-  padding: 0.8rem;
-  border: 1px solid #e0e0e0;
+  padding: 1rem 0.8rem;
   text-align: left;
 }
 
 .portfolio-container table th {
-  background-color: var(--color-primary, #3b82f6);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+  font-weight: 600;
+}
+
+.portfolio-container table tr {
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .portfolio-container table tr:nth-child(even) {
-  background-color: #f5f5f5;
+  background-color: #f9f9fc;
 }
 
+.portfolio-container table tr:hover {
+  background-color: #f0f0f7;
+}
+
+/* Links */
 .portfolio-container a {
-  color: var(--color-primary, #3b82f6);
+  color: #667eea;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 
 .portfolio-container a:hover {
-  border-bottom-color: var(--color-primary, #3b82f6);
+  border-bottom-color: #667eea;
+  color: #764ba2;
 }
 
+/* Horizontal Rules */
 .portfolio-container hr {
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   border: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 2px solid #e0e0e0;
+}
+
+/* Lists */
+.portfolio-container ul, 
+.portfolio-container ol {
+  margin-left: 1.5rem;
+}
+
+.portfolio-container li {
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+/* Final section */
+.portfolio-container > div:last-child {
+  background-color: #f9f9fc;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  text-align: center;
 }
 </style>
