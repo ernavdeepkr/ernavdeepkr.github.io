@@ -11,8 +11,8 @@ type: portfolio
 
 <div class="intro-hero">
 <h1>Hi, I'm Navdeep Kaur</h1>
-<p class="intro-tagline">DevOps Engineer & Cloud Infrastructure Architect</p>
-<p class="intro-description">Results-driven professional with <strong>8+ years</strong> of expertise in cloud infrastructure, CI/CD automation, and DevSecOps. I build scalable systems with a strong focus on code quality and operational excellence.</p>
+<p class="intro-tagline">DevOps Engineer | Software Engineer | QA Automation Engineer</p>
+<p class="intro-description">Results-driven professional with <strong>8+ years</strong> of experience in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies. Certified Scrum Master with strong leadership in cross-functional teams. Proficient in Python, Go, Bash scripting, and emerging AI technologies.</p>
 </div>
 
 ## Professional Summary
@@ -141,9 +141,9 @@ type: portfolio
 
 ---
 
-## Publications & Research 📚
+## Publications & Research
 
-I have contributed to several research papers in cloud computing and performance benchmarking:
+Contributed research in cloud computing and performance benchmarking:
 
 ### Research Papers
 1. **"A Review on how to Measure the Cloud Performance by Using Linpack benchmark in a Cloud Environment"**
@@ -175,21 +175,21 @@ I have contributed to several research papers in cloud computing and performance
 
 ---
 
-## What I'm Passionate About ❤️
+## Professional Focus Areas
 
-- **DevOps & Automation** - Building robust CI/CD pipelines and automating infrastructure for efficiency and reliability
-- **Cloud Innovation** - Designing scalable cloud solutions and modern architecture patterns
-- **Compliance & Security** - Implementing automated compliance frameworks and security best practices
-- **Open Source** - Learning from and contributing to the open-source community
-- **Continuous Learning** - Staying updated with emerging technologies like Generative AI and Agentic AI
-- **Team Leadership** - Mentoring engineers, facilitating Agile practices, and driving high-velocity delivery
-- **Problem Solving** - Tackling complex challenges with creative, scalable solutions
+- **DevOps & Automation Excellence** - Architecting robust CI/CD pipelines and infrastructure automation for enhanced operational efficiency
+- **Cloud-Native Solutions** - Designing and implementing scalable cloud architectures leveraging modern platforms and technologies
+- **Enterprise Compliance & Security** - Establishing automated compliance frameworks and security practices aligned with industry standards
+- **Open Source Contribution** - Active participation in and support of open-source communities
+- **Continuous Technical Development** - Pursuing advanced knowledge in emerging technologies including AI and ML solutions
+- **Cross-Functional Leadership** - Guiding technical teams through Agile methodologies and driving organizational delivery objectives
+- **Strategic Problem Resolution** - Addressing complex infrastructure and automation challenges with engineered solutions
 
 ---
 
-## Let's Connect 🤝
+## Professional Network
 
-I'm always interested in collaborating on exciting projects, discussing automation strategies, or sharing knowledge.
+Available for collaboration on transformative projects, technical discussions, and knowledge exchange.
 
 - **LinkedIn**: [ernavdeepkr](https://linkedin.com/in/ernavdeepkr)
 - **GitHub**: [ernavdeepkr](https://github.com/ernavdeepkr)
@@ -198,7 +198,7 @@ I'm always interested in collaborating on exciting projects, discussing automati
 ---
 
 <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
-<p><em>Always happy to discuss ideas, opportunities, or just chat about automation and technology!</em></p>
+<p><em>Open to discussing strategic opportunities in DevOps, cloud infrastructure, and technology innovation.</em></p>
 </div>
 
 </div>
