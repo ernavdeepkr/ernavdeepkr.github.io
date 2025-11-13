@@ -1,5 +1,5 @@
 googleAnalytics = "G-H9XFL6T4DC"
-baseurl = "https://ernavdeepkr.github.io"
+baseurl = "https://ernavdeepkr.github.io/"
 metaDataFormat = "yaml"
 title = "Automation Crunch 😎"
 theme = "blist"
@@ -70,6 +70,10 @@ DefaultContentLanguageInSubdir = true
     website = "gitlab"
     url = "https://gitlab.com/ernavdeepkr"
 
+[params.meta]
+  description = "My personal blog about automation and software development"
+  keywords = ["automation", "software", "development", "blog"]
+  author = "Navdeep Kaur"
 
 [build]
   writeStats = true
