@@ -13,8 +13,8 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! 👋 I'm Navdeep Kaur"
-      introSubtitle = "An Avid Learner 📖, Doing everything possible around Automation 🤖 Software Development."
+      introTitle = "DevOps Engineer & Cloud Infrastructure Architect"
+      introSubtitle = "Building scalable, secure, and reliable systems across AWS, IBM Cloud, and Kubernetes. 8+ years of CI/CD automation, DevSecOps, and thought leadership in cloud-native technologies."
       introPhoto = "/profile_pic.jpeg"
       #logo = "/blist-logo1.png"
     
