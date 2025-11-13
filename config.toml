@@ -1,8 +1,8 @@
 googleAnalytics = "G-H9XFL6T4DC"
-baseurl = "https://ernavdeepkr.gitlab.io"
+baseurl = "https://ernavdeepkr.github.io"
 metaDataFormat = "yaml"
 title = "Automation Crunch 😎"
-theme = "blis_custom"
+theme = "blist"
 
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
