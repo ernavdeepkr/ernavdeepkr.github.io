@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="plat-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#plat-grad)"/>
+  <text x="600" y="315" font-size="64" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">Platform Engineering</text>
+  <text x="600" y="380" font-size="32" fill="#d1fae5" text-anchor="middle" font-family="Arial, sans-serif">Internal Developer Platforms</text>
+  <rect x="100" y="100" width="50" height="50" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="1050" cy="530" r="45" fill="#3b82f6" opacity="0.7"/>
+</svg>
