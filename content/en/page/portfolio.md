@@ -1,6 +1,6 @@
 ---
 author: Navdeep Kaur
-title: About & Portfolio
+title: Portfolio
 date: 2025-11-13
 description: "Personal portfolio and professional profile showcasing 8+ years of DevOps, cloud infrastructure, and automation engineering expertise"
 keywords: ["portfolio", "automation", "engineering", "devops", "about"]
