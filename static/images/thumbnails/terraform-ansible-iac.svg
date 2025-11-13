@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b21b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9f1239;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad5)"/>
+  <text x="600" y="315" font-size="68" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">Terraform vs Ansible</text>
+  <text x="600" y="380" font-size="32" fill="#f3e8ff" text-anchor="middle" font-family="Arial">Infrastructure as Code</text>
+  <rect x="100" y="80" width="60" height="60" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="1050" cy="530" r="50" fill="#f59e0b" opacity="0.7"/>
+</svg>

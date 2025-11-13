@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d47a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad8)"/>
+  <text x="600" y="315" font-size="64" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">Pytest Advanced Patterns</text>
+  <text x="600" y="380" font-size="32" fill="#b3e5fc" text-anchor="middle" font-family="Arial">Python Testing Framework</text>
+  <circle cx="130" cy="110" r="38" fill="#ffeb3b" opacity="0.8"/>
+  <circle cx="1070" cy="520" r="52" fill="#4fc3f7" opacity="0.7"/>
+</svg>

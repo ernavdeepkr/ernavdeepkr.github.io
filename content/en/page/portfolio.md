@@ -1,19 +1,15 @@
 ---
 author: Navdeep Kaur
-title: Portfolio
+title: About & Portfolio
 date: 2025-11-13
-description: "Personal portfolio showcasing projects, skills, and experience in automation engineering"
-keywords: ["portfolio", "automation", "engineering"]
+description: "Personal portfolio and professional profile showcasing 8+ years of DevOps, cloud infrastructure, and automation engineering expertise"
+keywords: ["portfolio", "automation", "engineering", "devops", "about"]
 type: portfolio
 ---
 
 <div class="portfolio-container">
 
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="20" style="float: left"> 
-
-# Welcome to My Portfolio
-
-I'm **Navdeep Kaur**, a results-driven **DevOps Engineer and Software Engineer** with **8+ years** of professional experience. I specialize in cloud infrastructure, CI/CD automation, and DevSecOps. I take great care in the experience, architecture, and code quality of the things I build.
+Hi, I'm **Navdeep Kaur**, a results-driven **DevOps Engineer and Software Engineer** with **8+ years** of professional experience. I specialize in cloud infrastructure, CI/CD automation, and DevSecOps. I take great care in the experience, architecture, and code quality of the things I build.
 
 I have learned extensively from the open-source community and believe strongly in knowledge sharing and collaboration.
 
