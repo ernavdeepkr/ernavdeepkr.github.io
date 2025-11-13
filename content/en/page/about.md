@@ -11,12 +11,12 @@ type: about
 
 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="20" style="float: left"> 
 
-**Hey there!**, I'm **Navdeep Kaur** 🙂, a passionate Automation Engineer. I take great care in the experience, architecture, and code quality of the things I build.
+**Hey there!**, I'm **Navdeep Kaur** 🙂, a passionate DevOps Engineer and Software Engineer. I take great care in the experience, architecture, and code quality of the things I build.
 
 I learnt a lot from the open-source community, and I enjoy how it facilitates cooperation and information sharing.
 
-- *I am a tools geek with a passion for automation.*
-- *I have strong automation capabilities and 5+ years of work experience with cloud services such as AWS and AZURE.*
+- *I am a tools geek with a passion for automation and cloud infrastructure.*
+- *I have 8+ years of professional experience in cloud infrastructure, CI/CD automation, and DevSecOps with expertise in AWS, IBM Cloud, Kubernetes, and enterprise-scale DevOps practices.*
 
 ## AWARDS
 
