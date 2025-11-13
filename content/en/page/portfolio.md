@@ -218,13 +218,13 @@ I'm always interested in collaborating on exciting projects, discussing automati
 
 /* Hero Section */
 .intro-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
   padding: 3rem 2rem;
   border-radius: 12px;
   margin-bottom: 3rem;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
 }
 
 .intro-hero h1 {
@@ -232,21 +232,24 @@ I'm always interested in collaborating on exciting projects, discussing automati
   margin-bottom: 0.5rem;
   font-weight: 700;
   letter-spacing: -1px;
+  color: #fff;
 }
 
 .intro-tagline {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  opacity: 0.95;
+  opacity: 0.98;
+  color: #e0e7ff;
 }
 
 .intro-description {
   font-size: 1.1rem;
   line-height: 1.6;
-  opacity: 0.9;
+  opacity: 0.95;
   max-width: 600px;
   margin: 0 auto;
+  color: #f0f4ff;
 }
 
 /* Summary Cards Grid */
@@ -258,46 +261,49 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .summary-card {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   padding: 1.8rem;
   border-radius: 10px;
-  border-left: 5px solid #667eea;
+  border-left: 5px solid #2563eb;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.1);
+  border: 1px solid #bfdbfe;
 }
 
 .summary-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
-  border-left-color: #764ba2;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.2);
+  border-left-color: #1e40af;
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 .card-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #667eea;
+  color: #1e40af;
   margin-bottom: 0.5rem;
 }
 
 .summary-card p {
-  color: #333;
+  color: #1e3a8a;
   font-size: 0.95rem;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 /* Headings */
 .portfolio-container h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #667eea;
+  color: #1e40af;
 }
 
 .portfolio-container h2 {
   font-size: 1.8rem;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #667eea;
-  border-bottom: 3px solid #667eea;
+  color: #1e40af;
+  border-bottom: 3px solid #2563eb;
   padding-bottom: 0.8rem;
   font-weight: 700;
 }
@@ -306,7 +312,7 @@ I'm always interested in collaborating on exciting projects, discussing automati
   font-size: 1.3rem;
   margin-top: 1.8rem;
   margin-bottom: 1rem;
-  color: #764ba2;
+  color: #1e40af;
   font-weight: 600;
 }
 
@@ -315,9 +321,10 @@ I'm always interested in collaborating on exciting projects, discussing automati
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  border: 1px solid #bfdbfe;
 }
 
 .portfolio-container table th,
@@ -327,26 +334,31 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .portfolio-container table th {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   color: white;
   font-weight: 600;
 }
 
+.portfolio-container table td {
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
 .portfolio-container table tr {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #bfdbfe;
 }
 
 .portfolio-container table tr:nth-child(even) {
-  background-color: #f9f9fc;
+  background-color: #f0f9ff;
 }
 
 .portfolio-container table tr:hover {
-  background-color: #f0f0f7;
+  background-color: #dbeafe;
 }
 
 /* Links */
 .portfolio-container a {
-  color: #667eea;
+  color: #2563eb;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
@@ -354,15 +366,15 @@ I'm always interested in collaborating on exciting projects, discussing automati
 }
 
 .portfolio-container a:hover {
-  border-bottom-color: #667eea;
-  color: #764ba2;
+  border-bottom-color: #2563eb;
+  color: #1e40af;
 }
 
 /* Horizontal Rules */
 .portfolio-container hr {
   margin: 2.5rem 0;
   border: none;
-  border-top: 2px solid #e0e0e0;
+  border-top: 2px solid #bfdbfe;
 }
 
 /* Lists */
@@ -374,14 +386,20 @@ I'm always interested in collaborating on exciting projects, discussing automati
 .portfolio-container li {
   margin-bottom: 0.8rem;
   line-height: 1.7;
+  color: #1e3a8a;
 }
 
 /* Final section */
 .portfolio-container > div:last-child {
-  background-color: #f9f9fc;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
   padding: 2rem;
   border-radius: 10px;
   margin-top: 2rem;
   text-align: center;
+  border: 2px solid #bfdbfe;
+}
+
+.portfolio-container > div:last-child p {
+  color: #1e40af;
 }
 </style>
