@@ -11,8 +11,8 @@ type: portfolio
 
 <div class="intro-hero">
 <h1>Hi, I'm Navdeep Kaur</h1>
-<p class="intro-tagline">Software Engineer | DevOps Engineer | QA Automation Engineer</p>
-<p class="intro-description">Results-driven professional with <strong>8+ years</strong> of experience in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies. Certified Scrum Master with strong leadership in cross-functional teams. Proficient in Python, Go, Bash scripting, and emerging AI technologies.</p>
+<p class="intro-tagline">Software Engineer (Cloud)</p>
+<p class="intro-description">Results-driven Software Engineer (Cloud) with <strong>8+ years</strong> of experience in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies. Certified Scrum Master with strong leadership in cross-functional teams. Proficient in Python, Go, Bash scripting, and emerging AI technologies.</p>
 </div>
 
 ## Professional Summary
@@ -25,8 +25,8 @@ type: portfolio
 </div>
 
 <div class="summary-card">
-<div class="card-title">☁️ Cloud Architect</div>
-<p>8+ years with AWS, IBM Cloud, Kubernetes, and modern cloud platforms</p>
+<div class="card-title">☁️ Software Engineer (Cloud)</div>
+<p>8+ years with IBM Cloud, AWS, Kubernetes, and modern cloud platforms</p>
 </div>
 
 <div class="summary-card">
@@ -57,12 +57,12 @@ type: portfolio
 
 | **Category** | **Skills** |
 |---|---|
-| **Languages** | Python, Go, Bash, Ruby, Markdown |
+| **Languages** | Python, Go, Bash, Markdown |
 | **CI/CD Tools** | Jenkins, Tekton (IBM OnePipeline), GitHub Actions, Travis CI |
 | **IaC & Configuration** | Terraform, Ansible, Docker, Kubernetes, OpenShift |
-| **Cloud Platforms** | AWS, IBM Cloud, IBM Cloud Satellite |
+| **Cloud Platforms** | IBM Cloud, AWS |
 | **Testing & QA** | Pytest Framework, Postman, API Testing, UI Testing, Performance Testing |
-| **Databases** | MySQL, MongoDB, Snowflake, SQLite |
+| **Databases** | MySQL, Snowflake, SQLite |
 | **Compliance & Security** | Auditree, FedRAMP, DevSecOps, CI/CD Security |
 | **Tools & Platforms** | Git, JIRA, Bugzilla, Linux, macOS, Windows, Visual Studio, PyCharm, Anaconda |
 | **Emerging Tech** | Generative AI, Agentic AI, IBM watsonx.ai |
@@ -100,7 +100,7 @@ type: portfolio
 ## Professional Experience
 
 ### IBM (USA) - Raleigh, NC | March 2022 - Present
-**DevOps Engineer (Cloud)** 💼
+**Software Engineer (Cloud)** 💼
 
 **Key Achievements:**
 - Architected and maintained end-to-end CI/CD pipelines using Jenkins, Tekton, GitHub Actions, and OnePipeline, standardizing workflows across 54 repositories
@@ -235,7 +235,7 @@ Available for collaboration on transformative projects, technical discussions, a
   font-weight: 600;
   margin-bottom: 1.5rem;
   opacity: 0.9;
-  color: #374151;
+  color: #1f2937;
 }
 
 .intro-description {
@@ -280,7 +280,7 @@ Available for collaboration on transformative projects, technical discussions, a
 }
 
 .summary-card p {
-  color: #374151;
+  color: #1f2937;
   font-size: 0.95rem;
   line-height: 1.5;
   font-weight: 500;
@@ -329,7 +329,7 @@ Available for collaboration on transformative projects, technical discussions, a
 }
 
 .portfolio-container table th {
-  background: linear-gradient(135deg, #4b5563 0%, #374151 100%);
+  background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
   color: white;
   font-weight: 600;
 }
@@ -395,6 +395,6 @@ Available for collaboration on transformative projects, technical discussions, a
 }
 
 .portfolio-container > div:last-child p {
-  color: #374151;
+  color: #1f2937;
 }
 </style>
