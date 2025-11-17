@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Software Engineer (Cloud)"
-      introSubtitle = "Results-driven Software Engineer (Cloud) with 8+ years of experience in CI/CD automation, cloud infrastructure, and DevSecOps. in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies."
+      introSubtitle = "Results-driven Software Engineer (Cloud) with 8+ years of experience in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies."
       introPhoto = "/profile_pic.jpeg"
       #logo = "/blist-logo1.png"
     
