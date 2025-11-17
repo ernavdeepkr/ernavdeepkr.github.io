@@ -13,8 +13,8 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Software Engineer | DevOps Engineer | Automation Specialist"
-      introSubtitle = "Results-driven professional specializing in CI/CD automation, cloud infrastructure, and DevSecOps. 8+ years of hands-on experience building scalable systems across AWS, IBM Cloud, and Kubernetes with expertise in modern development practices and automation frameworks."
+      introTitle = "Software Engineer (Cloud)"
+      introSubtitle = "Results-driven Software Engineer (Cloud) with 8+ years of experience in CI/CD automation, cloud infrastructure, and DevSecOps. in cloud infrastructure, CI/CD automation, and DevSecOps. Proven expertise in migrating legacy systems to modern cloud platforms (IBM Cloud, AWS), implementing enterprise-scale CI/CD pipelines, and automating compliance frameworks (FedRAMP). Skilled in containerization (Docker, Kubernetes, OpenShift), infrastructure as code (Terraform, Ansible), and Agile methodologies."
       introPhoto = "/profile_pic.jpeg"
       #logo = "/blist-logo1.png"
     
